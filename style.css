@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.one {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    margin: auto;
+}
+
+h2 {
+    margin: 10px 10px;
+}
+
+p{
+    margin: 10px 10px;
+}
+
+.containerTwo {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.two>img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.image {
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.left {
+    display: flex;
+}
+
+.left>img {
+    height: 70px;
+    width: 70px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
